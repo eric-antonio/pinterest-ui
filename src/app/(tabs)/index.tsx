@@ -1,18 +1,25 @@
+import Filter from "@/components/Filter";
+import Filters from "@/components/Filters";
 import { theme } from "@/theme";
-import { Text, View, StyleSheet } from "react-native";
+import { FILTERS } from "@/utils/filters";
+import { useState } from "react";
+import { StyleSheet } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+
 export default function Home() {
+  const [filter, setFilter] = useState(FILTERS[0]);
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Hello, Welcome to React Native !</Text>
-    </View>
+    <SafeAreaView style={styles.container}>
+      <Filters filters={FILTERS} filter={filter} onChange={setFilter} />
+    </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
+    padding: 12,
+    paddingTop: 22,
     backgroundColor: theme.colors.black,
   },
   text: {
