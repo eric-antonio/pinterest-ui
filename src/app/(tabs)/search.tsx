@@ -1,9 +1,9 @@
 import { theme } from "@/theme";
 import { Text, View, StyleSheet } from "react-native";
-export default function Home() {
+export default function Search() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Hello, Welcome to React Native !</Text>
+      <Text style={styles.text}>Search</Text>
     </View>
   );
 }
