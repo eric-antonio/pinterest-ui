@@ -1,7 +1,9 @@
-import Filter from "@/components/Filter";
+
 import Filters from "@/components/Filters";
+import Posts from "@/components/Posts";
 import { theme } from "@/theme";
 import { FILTERS } from "@/utils/filters";
+import { POSTS } from "@/utils/posts";
 import { useState } from "react";
 import { StyleSheet } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
@@ -11,6 +13,7 @@ export default function Home() {
   return (
     <SafeAreaView style={styles.container}>
       <Filters filters={FILTERS} filter={filter} onChange={setFilter} />
+      <Posts posts={POSTS}/>
     </SafeAreaView>
   );
 }
