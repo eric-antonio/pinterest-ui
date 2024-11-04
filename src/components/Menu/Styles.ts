@@ -25,5 +25,10 @@ export const styles= StyleSheet.create({
     textAlign:'center',
     color:theme.colors.white,
     fontFamily:theme.fontFamily.regular,
-  }
+  }, 
+  options:{
+    gap:16,
+    marginTop:32,
+    flexDirection:'row',
+  },
 })
