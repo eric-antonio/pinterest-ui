@@ -75,7 +75,7 @@ export const POSTS = [
     id: "13",
     title: "Mobile",
     image:
-      "https://images.pexels.com/photos/1109543/pexels-photo-1109543.jpeg?auto=compress&cs=tinysrgb&w=600" 
+      "https://images.pexels.com/photos/1109543/pexels-photo-1109543.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     id: "14",
@@ -87,7 +87,7 @@ export const POSTS = [
     id: "15",
     title: "Natureza",
     image:
-      "https://images.pexels.com/photos/1200225/pexels-photo-1200225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      "https://images.pexels.com/photos/1200225/pexels-photo-1200225.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     id: "16",
@@ -97,26 +97,26 @@ export const POSTS = [
   },
   {
     id: "17",
-    title: "Cristianismo",
+    title: "Viagem",
     image:
-      "https://images.pexels.com/photos/2052230/pexels-photo-2052230.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "https://images.pexels.com/photos/3768770/pexels-photo-3768770.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     id: "18",
-    title: "Fé",
+    title: "Paisagem",
     image:
-      "https://images.pexels.com/photos/4778363/pexels-photo-4778363.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "https://images.pexels.com/photos/4388688/pexels-photo-4388688.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     id: "19",
-    title: "Igreja",
+    title: "Breakfast",
     image:
-      "https://images.pexels.com/photos/2081123/pexels-photo-2081123.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "https://images.pexels.com/photos/374092/pexels-photo-374092.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     id: "20",
-    title: "Oração",
+    title: "Music",
     image:
-      "https://images.pexels.com/photos/2467315/pexels-photo-2467315.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "https://images.pexels.com/photos/34288/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600"
   }
 ];
