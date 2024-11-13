@@ -1,9 +1,15 @@
 import { theme } from "@/theme";
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View, StyleSheet, Image } from "react-native";
 export default function Profile() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Profile</Text>
+      <View>
+        <Text style={styles.text}>Profile</Text>
+        <Image
+          source={{ uri: "https://github.com/eric-antonio.png" }}
+          style={{ width: 64, height: 64 }}
+        />
+      </View>
     </View>
   );
 }
