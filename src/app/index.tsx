@@ -55,7 +55,6 @@ const Splash = () => {
         );
       });
   }
-
   function onEndSplash() {
     setTimeout(() => {
       router.push("/(tabs)");
